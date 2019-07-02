@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40f9e7a-477b-416f-8984-428fbbf6a56f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3MNIST/1mnist入门/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3MNIST/1mnist入门/问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3MNIST/_2mnist_go/cnn_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3MNIST/_2mnist_go/问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3MNIST/_3mnist_进阶/fully_connected_feed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3MNIST/_3mnist_进阶/mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3MNIST/mnist_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/cifar10_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/cifar10_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/cifar10_multi_gpu_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4cnn/cifar10_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5variable/_1var_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5variable/_2share_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5variable/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6合并操作/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorboard/1test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2下载安装/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2下载安装/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/mnist_data/MNIST_data/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/mnist_data/MNIST_data/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/mnist_data/MNIST_data/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/mnist_data/MNIST_data/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/mnist_data/input_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/_1mnist入门/minist_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/_1mnist入门/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/下载mnist库.py" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/_1mnist入门/下载mnist库.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3MNIST/1mnist入门/问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/3MNIST/_1mnist入门/问题.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +37,24 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/$go.coverage" NAME="go Coverage Results" MODIFIED="1560234440958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1start" />
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="简介 Coverage Results" MODIFIED="1560235465750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1start" />
     <SUITE FILE_PATH="coverage/$1.coverage" NAME="1 Coverage Results" MODIFIED="1560236104439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2下载安装" />
     <SUITE FILE_PATH="coverage/$3feed_placeholder.coverage" NAME="3feed_placeholder Coverage Results" MODIFIED="1560241270237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2下载安装" />
-    <SUITE FILE_PATH="coverage/tensorflow_complete_review$test.coverage" NAME="test Coverage Results" MODIFIED="1560325393759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/1mnist入门" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$test.coverage" NAME="test Coverage Results" MODIFIED="1560761762722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5variable" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$_1share_variable.coverage" NAME="_1share_variable Coverage Results" MODIFIED="1560753706824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5variable" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$_2share_variable.coverage" NAME="_2share_variable Coverage Results" MODIFIED="1560763271732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5variable" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1560415680631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4cnn" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$minist_classification__1_.coverage" NAME="minist_classification (1) Coverage Results" MODIFIED="1560418555104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/_1mnist入门" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1560756780080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5variable" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$cnn_code__1_.coverage" NAME="cnn_code (1) Coverage Results" MODIFIED="1560737790522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/_2mnist_go" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$1.coverage" NAME="1 Coverage Results" MODIFIED="1561707518540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6合并操作" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$fully_connected_feed.coverage" NAME="fully_connected_feed Coverage Results" MODIFIED="1560415169365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/_3mnist_进阶" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="简介 Coverage Results" MODIFIED="1560235465750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1start" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$cnn_code.coverage" NAME="cnn_code Coverage Results" MODIFIED="1560393660573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/2mnist进阶" />
     <SUITE FILE_PATH="coverage/$minist_classification.coverage" NAME="minist_classification Coverage Results" MODIFIED="1560320818200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/1mnist入门" />
     <SUITE FILE_PATH="coverage/$2.coverage" NAME="2 Coverage Results" MODIFIED="1560243614580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/1mnist入门" />
-    <SUITE FILE_PATH="coverage/tensorflow_complete_review$minist_classification.coverage" NAME="minist_classification Coverage Results" MODIFIED="1560321394655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/1mnist入门" />
-    <SUITE FILE_PATH="coverage/tensorflow_complete_review$1.coverage" NAME="1 Coverage Results" MODIFIED="1560322727847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2下载安装" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$minist_classification.coverage" NAME="minist_classification Coverage Results" MODIFIED="1560410985044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3MNIST/1mnist入门" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$cifar10.coverage" NAME="cifar10 Coverage Results" MODIFIED="1560415609222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4cnn" />
+    <SUITE FILE_PATH="coverage/tensorflow_complete_review$1test.coverage" NAME="1test Coverage Results" MODIFIED="1560495344067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="tensorflow_complete_review" />
@@ -30,19 +62,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1start/test.py">
+        <entry file="file://$PROJECT_DIR$/3MNIST/_2mnist_go/cnn_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="1406">
+              <caret line="77" column="29" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py">
+        <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="446">
+                <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3MNIST/_2mnist_go/问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="513">
+                <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2下载安装/2变量.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="190">
+              <caret line="10" column="4" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6合并操作/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -51,49 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/test.py">
+        <entry file="file://$PROJECT_DIR$/5variable/_2share_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/问题.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="218">
-                <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2下载安装/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2下载安装/2变量.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1start/简介.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="2546">
+              <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -119,6 +148,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tensorflow</find>
+      <find>read_data_sets</find>
+      <find>tmp</find>
+      <find>pycach</find>
+      <find>__pycache__</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -132,18 +170,36 @@
         <option value="$PROJECT_DIR$/3MNIST/1mnist入门/1.py" />
         <option value="$PROJECT_DIR$/3MNIST/1mnist入门/2.py" />
         <option value="$PROJECT_DIR$/3MNIST/1mnist入门/问题.md.py" />
-        <option value="$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py" />
         <option value="$PROJECT_DIR$/2下载安装/1.py" />
         <option value="$PROJECT_DIR$/3MNIST/1mnist入门/test.py" />
         <option value="$PROJECT_DIR$/3MNIST/1mnist入门/问题.md" />
+        <option value="$PROJECT_DIR$/3MNIST/mnist_data/__init__.py" />
+        <option value="$PROJECT_DIR$/3MNIST/2mnist进阶/问题.md" />
+        <option value="$PROJECT_DIR$/3MNIST/2mnist进阶/cnn_code.py" />
+        <option value="$PROJECT_DIR$/3MNIST/2mnist_go/cnn_code.py" />
+        <option value="$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py" />
+        <option value="$PROJECT_DIR$/3MNIST/_3mnist_进阶/mnist.py" />
+        <option value="$PROJECT_DIR$/3MNIST/_3mnist_进阶/fully_connected_feed.py" />
+        <option value="$PROJECT_DIR$/4cnn/cifar10.py" />
+        <option value="$PROJECT_DIR$/4cnn/cifar10_train.py" />
+        <option value="$PROJECT_DIR$/4cnn/cifar10_multi_gpu_train.py" />
+        <option value="$PROJECT_DIR$/3MNIST/_2mnist_go/问题.md" />
+        <option value="$PROJECT_DIR$/3MNIST/_1mnist入门/minist_classification.py" />
+        <option value="$PROJECT_DIR$/tensorboard/1test.py" />
+        <option value="$PROJECT_DIR$/3MNIST/_2mnist_go/cnn_code.py" />
+        <option value="$PROJECT_DIR$/5variable/_1share_variable.py" />
+        <option value="$PROJECT_DIR$/5variable/test2.py" />
+        <option value="$PROJECT_DIR$/5variable/test.py" />
+        <option value="$PROJECT_DIR$/5variable/_2share_variable.py" />
+        <option value="$PROJECT_DIR$/6合并操作/1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -161,11 +217,6 @@
             <path>
               <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
-              <item name="1start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
               <item name="2下载安装" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,7 +228,39 @@
               <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
               <item name="3MNIST" type="462c0819:PsiDirectoryNode" />
-              <item name="1mnist入门" type="462c0819:PsiDirectoryNode" />
+              <item name="_1mnist入门" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="3MNIST" type="462c0819:PsiDirectoryNode" />
+              <item name="_2mnist_go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="3MNIST" type="462c0819:PsiDirectoryNode" />
+              <item name="_3mnist_进阶" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="4cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="5variable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="6合并操作" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_complete_review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_complete_review" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,10 +270,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/theRoleOfCOde/深度学习/目标识别" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\4cnn" />
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\3MNIST" />
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\3MNIST\2mnist进阶" />
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\3MNIST\1mnist入门" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\3MNIST\_1mnist入门" />
+      <recent name="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\3MNIST\mnist_data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="学习案例" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,12 +308,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2下载安装" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6合并操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2下载安装/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6合并操作/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_1share_variable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="学习案例" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,12 +330,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2下载安装" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5variable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2下载安装/2变量.py" />
+      <option name="SCRIPT_NAME" value="F:\python历程\tensorflow完整学习笔记\tensorflow_complete_review\5variable\_1var_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +344,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_2share_variable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="学习案例" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,56 +352,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3MNIST/1mnist入门" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5variable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\python历程\tensorflow完整学习笔记\学习案例\3MNIST\1mnist入门\下载mnist库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3feed_placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="学习案例" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2下载安装" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2下载安装/3feed_placeholder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="minist_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="学习案例" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3MNIST/1mnist入门" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5variable/_2share_variable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,12 +374,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3MNIST/1mnist入门" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5variable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3MNIST/1mnist入门/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5variable/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="学习案例" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5variable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5variable/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,11 +412,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.1" />
-        <item itemvalue="Python.minist_classification" />
-        <item itemvalue="Python.3feed_placeholder" />
-        <item itemvalue="Python.2变量" />
+        <item itemvalue="Python._2share_variable" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python._1share_variable" />
       </list>
     </recent_temporary>
   </component>
@@ -360,12 +433,18 @@
       <workItem from="1560234094277" duration="6357000" />
       <workItem from="1560307609398" duration="5773000" />
       <workItem from="1560321372270" duration="2306000" />
-      <workItem from="1560323729098" duration="1851000" />
+      <workItem from="1560323729098" duration="7027000" />
+      <workItem from="1560393512317" duration="872000" />
+      <workItem from="1560408291307" duration="9469000" />
+      <workItem from="1560494754663" duration="6159000" />
+      <workItem from="1560735910981" duration="17825000" />
+      <workItem from="1561703118804" duration="4757000" />
+      <workItem from="1561957783273" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16287000" />
+    <option name="totallyTimeSpent" value="60566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,23 +457,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.20576407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.25670242" />
       <window_info id="Favorites" order="2" sideWeight="0.5010482" side_tool="true" weight="0.25670242" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10764872" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25318247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32016632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26770538" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.1756374" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.61898017" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2181303" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3895184" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -447,24 +525,7 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/input_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="148" column="33" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
-          <folding>
-            <element signature="e#733#771#0" expanded="true" />
-            <element signature="e#1127#1558#0" />
-            <element signature="e#1586#1693#0" />
-            <element signature="e#1726#2313#0" />
-            <element signature="e#2368#2665#0" />
-            <element signature="e#2713#3216#0" />
-            <element signature="e#3242#5808#0" />
-            <element signature="e#5892#7272#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/下载mnist库.py">
+    <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/下载mnist库.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
@@ -478,17 +539,235 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2下载安装/2变量.py">
+    <entry file="file://$PROJECT_DIR$/2下载安装/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/mnist_data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/tensor_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="450" selection-start-line="450" selection-end-line="450" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/h5py/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/3MNIST/mnist_data/input_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="148" column="28" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="28" />
+          <folding>
+            <element signature="e#733#771#0" expanded="true" />
+            <element signature="e#1586#1693#0" />
+            <element signature="e#1726#2313#0" />
+            <element signature="e#2368#2665#0" />
+            <element signature="e#2713#3216#0" />
+            <element signature="e#3242#5808#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4cnn/cifar10_multi_gpu_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#1542#1580#0" expanded="true" />
+            <element signature="e#2638#4342#0" />
+            <element signature="e#4383#5698#0" />
+            <element signature="e#5716#10624#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/tmp/mnist_logs/events.out.tfevents.1560417449.DESKTOP-PKG72FL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/minist_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4cnn/cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+          <folding>
+            <element signature="e#1246#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4cnn/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4cnn/cifar10_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
+          <folding>
+            <element signature="e#1313#1351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4cnn/cifar10_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#739#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_3mnist_进阶/fully_connected_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+          <folding>
+            <element signature="e#760#798#0" expanded="true" />
+            <element signature="e#1258#2127#0" />
+            <element signature="e#2184#3001#0" />
+            <element signature="e#3137#3533#1" />
+            <element signature="e#4172#8030#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_3mnist_进阶/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+          <folding>
+            <element signature="e#1150#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorboard/1test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1start/简介.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="220">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5variable/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5variable/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5variable/_1var_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_2mnist_go/cnn_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_2mnist_go/问题.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="513">
+            <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2下载安装/2变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6合并操作/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5variable/_2share_variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -502,42 +781,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2下载安装/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="218">
-            <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/3MNIST/_1mnist入门/问题.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3MNIST/1mnist入门/minist_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="446">
+            <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
